@@ -145,8 +145,8 @@ static const Key keys[] = {
     */
 
     /* other */
-    { MODKEY|ShiftMask,             XK_q,      quit,           {0} },
     { MODKEY,                       XK_b,      togglebar,      {0} },
+    { MODKEY|ShiftMask,             XK_BackSpace,spawn,        CMD("powermenu") },
 };
 
 /* button definitions */
