@@ -21,17 +21,6 @@ static const char *colors[][3]      = {
     [SchemeNorm]       = { col_gray3, col_gray1, col_gray2 },
     [SchemeSel]        = { col_gray4, col_cyan,  col_cyan  },
 
-    /* statusbar */
-    [SchemeStatus]     = { col_gray3, col_gray1, "#000000" },
-
-    /* tagbar */
-    [SchemeTagsSel]    = { col_gray4, col_cyan,  "#000000" },
-    [SchemeTagsNorm]   = { col_gray3, col_gray1, "#000000" },
-
-    /* infobar */
-    [SchemeInfoSel]    = { col_gray3, col_gray1, "#000000" },
-    [SchemeInfoNorm]   = { col_gray3, col_gray1, "#000000" },
-
 };
 
 /* tagging */
