@@ -13,7 +13,7 @@ static const char *colors[][3]      = {
     /* scheme              fg         bg         border   */
 
     /* window */
-    [SchemeNorm]       = { "#707070", "#1d1f21", "#282a2e" },
+    [SchemeNorm]       = { "#707070", "#1d1f21", "#404040" },
     [SchemeSel]        = { "#c5c8c6", "#1d1f21", "#f0c674" },
 
 };
